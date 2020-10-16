@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientWnd</class>
+ <widget class="QMainWindow" name="ClientWnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>M&amp;enu</string>
+    </property>
+    <addaction name="action_Connect"/>
+    <addaction name="action_Sign_up"/>
+    <addaction name="action_Login"/>
+    <addaction name="separator"/>
+    <addaction name="action_Sign_out"/>
+    <addaction name="action_Quit"/>
+   </widget>
+   <widget class="QMenu" name="menuSetup">
+    <property name="title">
+     <string>Setup</string>
+    </property>
+    <addaction name="actionSmth_will_be_able_here_later"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuSetup"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_Connect">
+   <property name="text">
+    <string>&amp;Connect</string>
+   </property>
+  </action>
+  <action name="action_Sign_up">
+   <property name="text">
+    <string>&amp;Sign up</string>
+   </property>
+  </action>
+  <action name="action_Login">
+   <property name="text">
+    <string>&amp;Login</string>
+   </property>
+  </action>
+  <action name="action_Sign_out">
+   <property name="text">
+    <string>Sign &amp;out</string>
+   </property>
+  </action>
+  <action name="action_Quit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+  </action>
+  <action name="actionSmth_will_be_able_here_later">
+   <property name="text">
+    <string>Smth will be able here later</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
